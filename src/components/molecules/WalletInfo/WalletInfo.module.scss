@@ -1,0 +1,36 @@
+.walletInfo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #200d5b;
+	padding: 2rem;
+	border-radius: 8px;
+}
+.userInfo {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	color: white;
+	.userAvatar {
+		padding: 3px;
+		border-radius: 50%;
+		background: #2e1b6b;
+		height: 42px;
+		img {
+			border-radius: 50%;
+		}
+	}
+	.info {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+	p {
+		margin: 0;
+	}
+}
+.icon {
+	button {
+		cursor: default;
+	}
+}

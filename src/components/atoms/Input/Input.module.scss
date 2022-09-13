@@ -1,0 +1,19 @@
+.input {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: 100%;
+	color: white;
+	input {
+		background: #19094b;
+		backdrop-filter: blur(84px);
+		border-radius: 8px;
+		border: none;
+		padding: 1rem;
+		width: calc(100% - 2rem);
+		color: white;
+		&::placeholder {
+			color: rgba(255, 255, 255, 0.1);
+		}
+	}
+}

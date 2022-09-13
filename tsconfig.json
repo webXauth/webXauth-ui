@@ -15,7 +15,11 @@
 		"noEmit": true,
 		"jsx": "react-jsx",
 		"declaration": true,
-		"declarationDir": "types"
+		"declarationDir": "types",
+		"baseUrl": ".",
+		"paths": {
+			"@/assets/*": ["src/assets/*"]
+		}
 	},
-	"exclude": ["node_modules", "dist", "src/**/*.stories.tsx"]
+	"exclude": ["node_modules", "dist", "src/**/*.stories.tsx", "src/assets/*"]
 }
