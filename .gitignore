@@ -2,7 +2,6 @@
 
 **/node_modules
 **/npm-debug.log
-build
 
 # dependencies
 /node_modules
@@ -19,7 +18,7 @@ build
 /coverage
 
 # production
-/build
+/lib
 
 # misc
 .DS_Store
