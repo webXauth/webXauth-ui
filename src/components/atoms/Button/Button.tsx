@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { ComponentPropsWithoutRef } from "react";
 import styles from "./Button.module.scss";
 interface ButtonProps extends ComponentPropsWithoutRef<"button"> {
@@ -5,10 +6,10 @@ interface ButtonProps extends ComponentPropsWithoutRef<"button"> {
 }
 
 export const Button = (props: ButtonProps) => {
-	const { children, ...rest } = props;
+	const { children, className, ...rest } = props;
 	return (
-		<div className={styles.button}>
-			<button {...rest}>{children}</button>
-		</div>
+		<button className={classNames(styles.button, className)} {...rest}>
+			{children}
+		</button>
 	);
 };
