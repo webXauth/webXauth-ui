@@ -19,9 +19,9 @@ interface HomePageProps {
 export const HomePage = ({ web2, web3, logo }: HomePageProps) => {
 	return (
 		<div className={styles.container}>
-			<Header>
+			<header className={styles.header}>
 				<img src={logo} alt="logo" />
-			</Header>
+			</header>
 			<div className={styles.home}>
 				<TextInfo
 					text="Choose your preferred way to login"
@@ -29,7 +29,9 @@ export const HomePage = ({ web2, web3, logo }: HomePageProps) => {
 					className={styles.info}
 				/>
 				<div className={styles.login}>
-					<Button>Continue with Bonuz</Button>
+					<Button style={{ border: "0.1rem solid rgb(201, 202, 206)" }}>
+						Continue with Bonuz
+					</Button>
 				</div>
 				<div className={styles.icons}>
 					{web2.map((item, index) => (
@@ -44,7 +46,7 @@ export const HomePage = ({ web2, web3, logo }: HomePageProps) => {
 					))}
 				</div>
 			</div>
-			<Footer className={styles.footer}>
+			<footer className={styles.footer}>
 				{web3.map((item, index) => (
 					<Icon
 						key={index}
@@ -55,7 +57,7 @@ export const HomePage = ({ web2, web3, logo }: HomePageProps) => {
 						height="48"
 					/>
 				))}
-			</Footer>
+			</footer>
 		</div>
 	);
 };
