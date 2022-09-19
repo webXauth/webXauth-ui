@@ -25,7 +25,7 @@ Primary.args = {
 			onclick: () => {},
 		},
 		{
-			src: require(`/src/assets/facebook.png`),
+			src: require(`/src/assets/facebook.svg`),
 			name: "Facebook",
 			onclick: () => {},
 		},
@@ -42,5 +42,5 @@ Primary.args = {
 			onclick: () => {},
 		},
 	],
-	logo: require(`/src/assets/logo.svg`),
+	logo: require(`/src/assets/logo_dark.svg`),
 };

@@ -1,23 +1,5 @@
-<svg width="43" height="48" viewBox="0 0 43 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_b_4112_18096)">
-<path d="M11.3225 6.9926L11.3122 6.99849L11.3018 7.00414L1.00745 12.591L1.14951 23.9875L1.14967 24L1.14951 24.0125L1.00745 35.409L11.3018 40.9959L11.3122 41.0015L11.3225 41.0074L21.5 46.8471L31.6775 41.0074L31.6878 41.0015L31.6982 40.9959L41.9926 35.409L41.8505 24.0125L41.8503 24L41.8505 23.9875L41.9926 12.591L31.6982 7.00414L31.6878 6.99849L31.6775 6.9926L21.5 1.15292L11.3225 6.9926Z" stroke="url(#paint0_linear_4112_18096)" stroke-width="2"/>
-</g>
-<g clip-path="url(#clip0_4112_18096)">
-<path d="M13.5791 24C13.5791 19.8645 16.9633 16.5 21.123 16.5C22.8029 16.5 24.393 17.0374 25.7214 18.054L23.9684 20.318C23.147 19.6894 22.1631 19.3571 21.123 19.3571C18.5479 19.3571 16.453 21.4399 16.453 24C16.453 26.5601 18.5479 28.6429 21.123 28.6429C23.1969 28.6429 24.9594 27.2919 25.5668 25.4286H21.123V22.5714H28.6668V24C28.6668 28.1355 25.2826 31.5 21.123 31.5C16.9633 31.5 13.5791 28.1355 13.5791 24Z" fill="white"/>
-</g>
-<defs>
-<filter id="filter0_b_4112_18096" x="-14" y="-14" width="71" height="76" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feGaussianBlur in="BackgroundImage" stdDeviation="7"/>
-<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4112_18096"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_4112_18096" result="shape"/>
-</filter>
-<linearGradient id="paint0_linear_4112_18096" x1="-1.61718" y1="23.658" x2="43.2991" y2="23.0292" gradientUnits="userSpaceOnUse">
-<stop stop-color="#CE09FF"/>
-<stop offset="1" stop-color="#FFA34E"/>
-</linearGradient>
-<clipPath id="clip0_4112_18096">
-<rect width="15.0877" height="15" fill="white" transform="translate(13.5791 16.5)"/>
-</clipPath>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google"
+    viewBox="0 0 16 16">
+    <path
+        d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
 </svg>
