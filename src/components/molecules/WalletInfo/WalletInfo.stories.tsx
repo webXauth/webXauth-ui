@@ -21,4 +21,5 @@ Primary.args = {
 	name: "Mostafa Talaat",
 	publicKey: "0x1234567890",
 	style: { width: "fit-content" },
+	icon: require(`/src/assets/metamask.svg`),
 };
