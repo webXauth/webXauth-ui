@@ -5,7 +5,7 @@ import { Input } from "./Input";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-	title: "Example/Input",
+	title: "Example/Atoms/Input",
 	component: Input,
 	// More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 } as ComponentMeta<typeof Input>;
