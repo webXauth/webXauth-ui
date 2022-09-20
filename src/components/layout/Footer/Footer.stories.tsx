@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { Footer } from "./Footer";
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-	title: "Example/Layout/Footer",
+	title: "WebXAuth/Layout/Footer",
 	component: Footer,
 	// More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 } as ComponentMeta<typeof Footer>;

@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { Spinner } from "./Spinner";
 
 export default {
-	title: "Example/Atoms/Spinner",
+	title: "WebXAuth/Atoms/Spinner",
 	component: Spinner,
 	argTypes: {
 		backgroundColor: { control: "color", defaultValue: "#000" },

@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { TextButton } from "./TextButton";
 
 export default {
-	title: "Example/Views/TextButton",
+	title: "WebXAuth/Views/TextButton",
 	component: TextButton,
 } as ComponentMeta<typeof TextButton>;
 

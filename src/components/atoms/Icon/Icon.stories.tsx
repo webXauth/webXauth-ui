@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { Icon } from "./Icon";
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-	title: "Example/Atoms/Icon",
+	title: "WebXAuth/Atoms/Icon",
 	component: Icon,
 	// More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 } as ComponentMeta<typeof Icon>;

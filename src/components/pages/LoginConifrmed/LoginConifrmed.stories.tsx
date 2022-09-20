@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { LoginConifrmed } from "./LoginConifrmed";
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-	title: "Example/Pages/LoginConifrmed",
+	title: "WebXAuth/Pages/LoginConifrmed",
 	component: LoginConifrmed,
 	// More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 } as ComponentMeta<typeof LoginConifrmed>;

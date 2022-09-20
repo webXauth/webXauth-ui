@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { WebTwoThree } from "./WebTwoThree";
 export default {
-	title: "Example/Use Cases/Web 2 & 3",
+	title: "WebXAuth/Use Cases/Web 2 & 3",
 	component: WebTwoThree,
 } as ComponentMeta<typeof WebTwoThree>;
 

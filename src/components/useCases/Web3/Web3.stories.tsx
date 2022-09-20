@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { Web3 } from "./Web3";
 export default {
-	title: "Example/Use Cases/Web3",
+	title: "WebXAuth/Use Cases/Web3",
 	component: Web3,
 } as ComponentMeta<typeof Web3>;
 

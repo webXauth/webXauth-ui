@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { TextErrorButton } from "./TextErrorButton";
 
 export default {
-	title: "Example/Views/TextErrorButton",
+	title: "WebXAuth/Views/TextErrorButton",
 	component: TextErrorButton,
 } as ComponentMeta<typeof TextErrorButton>;
 

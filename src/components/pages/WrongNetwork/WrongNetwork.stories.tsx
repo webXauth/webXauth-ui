@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { WrongNetwork } from "./WrongNetwork";
 
 export default {
-	title: "Example/Pages/WrongNetwork",
+	title: "WebXAuth/Pages/WrongNetwork",
 	component: WrongNetwork,
 } as ComponentMeta<typeof WrongNetwork>;
 

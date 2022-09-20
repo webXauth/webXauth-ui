@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { WalletInfo } from "./WalletInfo";
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-	title: "Example/Molecules/WalletInfo",
+	title: "WebXAuth/Molecules/WalletInfo",
 	component: WalletInfo,
 	// More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 } as ComponentMeta<typeof WalletInfo>;
