@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button, Icon } from "../../atoms";
+import { TextInfo } from "../../molecules";
 import { Web3 } from "../Web3/Web3";
 import styles from "./WebTwoThree.module.scss";
 interface IWeb2 {
@@ -72,6 +73,11 @@ const Home = ({
 			style={{ marginBlockStart: "2rem", width: "100%" }}
 			className={styles.container}
 		>
+			<TextInfo
+				title={{ text: "WebXAuth", as: "h1" }}
+				text="Authenticate with Web2 or Web3"
+				className={styles.title}
+			/>
 			<div className={styles.list}>
 				{web2.map((w) => (
 					<Icon

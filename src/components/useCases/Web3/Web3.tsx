@@ -35,16 +35,23 @@ export const Web3 = ({ wallets, currentWallet, setFlow }: Web3Props) => {
 		return <InfoBlock variant="error">No Wallet is Supported!</InfoBlock>;
 	if (!activeWallet)
 		return (
-			<div className={styles.walletList}>
-				{wallets.map((wallet) => (
-					<Icon
-						src={wallet.icon}
-						name={wallet.name}
-						width="48"
-						height="48"
-						onclick={() => setActiveWallet(wallet)}
-					/>
-				))}
+			<div className={styles.container}>
+				<TextInfo
+					title={{ text: "WebXAuth", as: "h1" }}
+					text="Authenticate with Web3"
+					className={styles.title}
+				/>
+				<div className={styles.walletList}>
+					{wallets.map((wallet) => (
+						<Icon
+							src={wallet.icon}
+							name={wallet.name}
+							width="48"
+							height="48"
+							onclick={() => setActiveWallet(wallet)}
+						/>
+					))}
+				</div>
 			</div>
 		);
 	if (signing) {
