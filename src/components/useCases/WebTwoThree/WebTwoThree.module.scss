@@ -4,7 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
-	background: #200d5b;
+	background: #c9cace;
 	width: 100%;
 	padding-block: 2rem;
 	border-radius: 0 0 8px 8px;
@@ -39,5 +39,36 @@
 	h1,
 	p {
 		margin: 0;
+	}
+}
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 2rem;
+		gap: 2rem;
+		.back {
+			cursor: pointer;
+		}
+		button {
+			border: 1px solid rgb(201, 202, 206);
+		}
+	}
+	.info {
+		padding: 2rem;
+		button {
+			border: 1px solid rgb(201, 202, 206);
+		}
+	}
+	.footer {
+		u {
+			cursor: pointer;
+		}
 	}
 }
