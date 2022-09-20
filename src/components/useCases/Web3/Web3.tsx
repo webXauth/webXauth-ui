@@ -23,6 +23,7 @@ export const Web3 = ({ wallets, currentWallet, setFlow }: Web3Props) => {
 	const isCorrectNetwork = activeWallet?.network === "mainnet";
 	const handleCancel = () => {
 		setActiveWallet(null);
+		setFlow && setFlow();
 	};
 	const handleSigning = () => {
 		setSigning(true);
