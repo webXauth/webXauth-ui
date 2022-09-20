@@ -5,16 +5,19 @@ import { InfoBlock, TextInfo, WalletInfo } from "../../molecules";
 import { TextButton } from "../../views/TextButton/TextButton";
 import { TextErrorButton } from "../../views/TextErrorButton/TextErrorButton";
 import styles from "./Web3.module.scss";
-interface Web3Props {
-	wallets: {
-		name: string;
-		icon: string;
-		publicKey: string;
-		network: string | number;
-	}[];
+interface Wallet {
+	icon: string;
+	name: string;
+	publicKey: string;
+	network: string;
 }
-export const Web3 = ({ wallets }: Web3Props) => {
-	const [activeWallet, setActiveWallet] = useState<any>(null);
+interface Web3Props {
+	wallets: Wallet[];
+	currentWallet?: Wallet | null;
+	setFlow?: () => void;
+}
+export const Web3 = ({ wallets, currentWallet, setFlow }: Web3Props) => {
+	const [activeWallet, setActiveWallet] = useState<any>(currentWallet);
 	const [signing, setSigning] = useState(false);
 	const [isDone, setIsDone] = useState(false);
 	const isCorrectNetwork = activeWallet?.network === "mainnet";
@@ -60,6 +63,7 @@ export const Web3 = ({ wallets }: Web3Props) => {
 					onClick={() => {
 						setActiveWallet(null);
 						setIsDone(false);
+						setFlow && setFlow();
 					}}
 				>
 					Close Window
