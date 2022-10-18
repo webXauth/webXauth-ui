@@ -20,6 +20,9 @@
 	],
 	"author": "Mostafa Talaat <mostafatalaat770@gmail.com>",
 	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	  },
 	"main": "lib/index.js",
 	"module": "lib/index.esm.js",
 	"types": "lib/index.d.ts",
