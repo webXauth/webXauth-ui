@@ -1,5 +1,5 @@
 {
-	"name": "webxauth-ui",
+	"name": "@bonuz/webxauth-ui",
 	"version": "0.1.0-development",
 	"repository": {
 		"type": "git",
