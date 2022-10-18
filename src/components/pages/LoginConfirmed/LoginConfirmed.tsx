@@ -1,10 +1,9 @@
-import { Button, Input } from "../../atoms";
 import { TextButton } from "../../views/TextButton/TextButton";
-import styles from "./LoginConifrmed.module.scss";
-interface LoginConifrmedProps {
+import styles from "./LoginConfirmed.module.scss";
+interface LoginConfirmedProps {
 	logo: string;
 }
-export const LoginConifrmed = ({ logo }: LoginConifrmedProps) => {
+export const LoginConfirmed = ({ logo }: LoginConfirmedProps) => {
 	return (
 		<div className={styles.container}>
 			<header className={styles.header}>
